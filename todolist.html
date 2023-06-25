@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ltodolist.css">
+    <title></title>
+</head>
+<body>
+          <h1 style="margin:5px">My To Do List</h1>
+        
+        <ul id="myUL">
+          <li><input type="checkbox">Hit the gym</li>
+          <li class="checked">Pay bills</li>
+          <li><input type="checkbox">Meet John</li>
+          <li><input type="checkbox">Buy eggs</li>
+          <li class="checked">Read a book</li>
+          <li><input type="checkbox">Organize office</li>
+          <li><input type="checkbox">Eat dinner</li>
+          <li><input type="checkbox">Buy apples</li>
+          <li><input type="checkbox">Meet George</li>
+          <li><input type="checkbox">Feed the cat</li>
+          <li class="checked">Write a letter</li>
+          <li><input type="checkbox">Run 1 km</li>
+        </ul>
+        <script>
+            // Create a "close" button and append it to each list item
+            var myNodelist = document.getElementsByTagName("LI");
+            var i;
+            for (i = 0; i < myNodelist.length; i++) {
+              var span = document.createElement("SPAN");
+              var txt = document.createTextNode("\u00D7");
+              span.className = "close";
+              span.appendChild(txt);
+              myNodelist[i].appendChild(span);
+            }
+            
+            // Click on a close button to hide the current list item
+            var close = document.getElementsByClassName("close");
+            var i;
+            for (i = 0; i < close.length; i++) {
+              close[i].onclick = function() {
+                var div = this.parentElement;
+                div.style.display = "none";
+              }
+            }
+            </script>
+        
+</body>
+</html>

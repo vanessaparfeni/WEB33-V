@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(238, 238, 238);
+}
+dt{
+    font-style: italic;
+    font-size: 25px;
+}
+dd{
+    font-size: 27px;
+}

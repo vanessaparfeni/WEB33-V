@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   width: 1920px;
+   height: 5155px;
+   background: #162831;
+}
+.menu{
+    position: absolute;
+    width: 1298px;
+    height: 600px;
+    left: 312px;
+    top: 140px;
+    display: flex;
+}
+.menu img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 312px;
+    top: 30px;
+    display: flex;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    color: white;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menu button{
+    height: 50px;
+    width: 155px;
+    margin-left: 50px;
+    padding: 9px 15px 9px 15px;
+    background: #018ABE;
+    font-size: 13px;
+    color: white;
+}
+.head_logo h3{
+    position: absolute;
+    color:  #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+    left: 528PX;
+    top: 136px;
+}
+.head_logo h3::before{
+    content: url(/Icon/image1.png);
+    position: absolute;
+    right: 250px;
+}
+.head_logo::after{
+    content: 
+    position: absolute;
+    left: 250px;
+}
+.head_logo h1{
+    position: absolute;
+    left: -110px;
+    top: 236px;
+
+/*heading/64b */
+
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 140%;
+    /* or 90px */
+
+    text-align: center;
+
+    /* white */
+
+    color: #FFFFFF;
+
+}
