@@ -48,7 +48,7 @@ header button {
 .head_logo {
     width: 1296px;
     height: 600px;
-    background-image: url("../Icon/imagine1.png");
+    background-image: url("../Img/image1.png");
     background-repeat: no-repeat;
     margin: 40px auto 0 auto;
     padding-top: 200px;
@@ -69,13 +69,13 @@ header button {
 }
 
 .siance h1::before {
-    content: url(/Icon/list_left.png);
+    content: url(../Img/list_left.png);
     position: absolute;
     left: 750px;
 }
 
 .siance h1::after {
-    content: url(/Icon/list_right.png);
+    content: url(../Img/list_right.png);
     position: absolute;
     left: 1145px;
 }
@@ -89,7 +89,7 @@ header button {
 }
 .div1 { 
     grid-area: 1 / 1 / 3 / 2; 
-    background-image: url(Icon/div1.png);
+    background-image: url(../Img/div1.png);
     width: 416px;
     height: 540px;
     flex-shrink: 0;
@@ -108,7 +108,7 @@ header button {
 }
 .div2 { 
     grid-area: 1 / 2 / 2 / 3;
-    background-image: url(Icon/div2.png);
+    background-image: url(../Img/div2.png);
     border-radius: 10px;
     width: 416px;
     height: 258px;
@@ -125,7 +125,7 @@ header button {
 }
 .div3{
     grid-area: 1 / 3 / 2 / 4;
-    background-image: url(/Icon/div3.png);
+    background-image: url(../Img/div3.png);
     background-repeat: no-repeat;
     width: 416px;
     height: 258px;
@@ -153,7 +153,7 @@ header button {
 } 
 .div4 { 
     grid-area: 2 / 2 / 3 / 3;
-    background-image: url(Icon/div4.png);
+    background-image: url(../Img/div4.png);
     width: 416px;
     height: 258px;
     flex-shrink: 0;
@@ -168,7 +168,7 @@ header button {
 }
 .div5 { 
     grid-area: 2 / 3 / 3 / 4;
-    background-image: url(Icon/div5.png);
+    background-image: url(../Img/div5.png);
     width: 416px;
     height: 258px;
     flex-shrink: 0;
@@ -196,12 +196,12 @@ header button {
     text-align: center;
 }
 .feedback h1::before {
-    content: url(/Icon/list_left.png);
+    content: url(../Img/list_left.png);
     position: absolute;
     left: 500px;
 }
 .feedback h1::after {
-    content: url(/Icon/list_right.png);
+    content: url(../Img/list_right.png);
     position: absolute;
     left: 1145px;
 }
@@ -228,7 +228,7 @@ header button {
     width: 500px;
     height: 276px;
     flex-shrink: 0;
-    background-image: url(Img/Rectangle\ 18.png);
+    background-image: url(../Img/Rectangle\ 18.png);
     border-radius: 10px;
     margin-top: -400px;
     border-radius: 10px;
@@ -251,7 +251,7 @@ header button {
     margin-left: 1320px;
     margin-top: -280px;
     background: no-repeat;
-    background-image: url(Img/Rectangle\ 17.png);
+    background-image: url(../Img/Rectangle\ 17.png);
     
 }
 .about_cont1{
